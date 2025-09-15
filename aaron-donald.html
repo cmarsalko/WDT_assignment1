@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Defines the document as HTML5 -->
+  <meta charset="utf-8" />
+
+  <!-- Ensures page scales correctly on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Page title shown in browser tab -->
+  <title>Aaron Donald — Pittsburgh Athletes</title>
+
+  <!-- Link to external stylesheet for styling -->
+  <link rel="stylesheet" href="styles.css" />
+  
+  <!-- JavaScript files: athletes data and behavior logic, loaded after HTML parsing -->
+  <script defer src="data/athletes.js"></script>
+  <script defer src="script.js"></script>
+</head>
+
+<!-- Data attribute lets JavaScript know which athlete’s info to load -->
+<body data-athlete="aaron_donald">
+  <header>
+    <!-- Main heading of the site, can be updated dynamically by JS -->
+    <h1 id="athlete-name">Pittsburgh Sports Greats Past and Present</h1>
+    <!-- Primary navigation bar -->
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="football.html">Professional Football</a></li>
+        <li><a href="cfb.html">College Football</a></li>
+        <li><a href="baseball.html">Professional Baseball</a></li>
+        <li><a href="hockey.html">Hockey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sub-heading for this specific athlete page -->
+    <h2>Aaron Donald - Pitt Panthers / Los Angeles Rams</h2>
+
+    <!-- Figure groups image + caption -->
+    <figure>
+      <!-- Athlete image (JS could swap this dynamically if needed). -->
+      <img id="athlete-img" src="photos/aarondonald2.webp" alt="" width="640" height="360" />
+
+      <!-- Description of the image -->
+      <figcaption>
+        Aaron Donald doing his iconic "Ring Me" celebration after making the game winning sack in Super Bowl LVI.
+      </figcaption>
+    </figure>
+
+    <!-- Bio section describing athlete’s career -->
+    <section>
+      <h2>Bio</h2>
+      <p id="bio">
+        Aaron Donald dominated the trenches at Pitt from 2010–2013, becoming one of the most decorated defenders in school history. 
+        In his senior year, he swept the nation’s top defensive awards, including the Outland Trophy, Bednarik Award, Nagurski Trophy, 
+        and Lombardi Award, while earning consensus All-American honors. Drafted 13th overall by the Rams, he went on to become a 
+        3-time NFL Defensive Player of the Year, 8-time Pro Bowler, and Super Bowl LVI champion.
+      </p>
+    </section>
+
+    <!-- Section for displaying year-by-year stats -->
+    <section>
+      <h2>Year-by-Year Stats</h2>
+      <!-- Placeholder div: JavaScript will generate the stats table here -->
+      <div id="stats-table"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Chase Marsalko</p>
+  </footer>
+</body>
+</html>

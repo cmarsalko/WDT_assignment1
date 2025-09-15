@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Page setup -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Page title -->
+  <title>LeSean "Shady" McCoy — Pittsburgh Athletes</title>
+
+  <!-- Styles and scripts -->
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="data/athletes.js"></script>
+  <script defer src="script.js"></script>
+</head>
+
+<!-- Tells JS which athlete to load -->
+<body data-athlete="lesean_mccoy">
+  <header>
+    <!-- Site heading -->
+    <h1 id="athlete-name">Pittsburgh Sports Greats Past and Present</h1>
+
+    <!-- Navigation menu -->
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="football.html">Professional Football</a></li>
+        <li><a href="cfb.html">College Football</a></li>
+        <li><a href="baseball.html">Professional Baseball</a></li>
+        <li><a href="hockey.html">Hockey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page heading -->
+    <h2>LeSean "Shady" McCoy - Pitt Panthers / Philadelphia Eagles</h2>
+
+    <!-- Image and caption -->
+    <figure>
+      <img id="athlete-img" src="photos/shadymccoy2.jpg" alt="" width="640" height="360" />
+      <figcaption>
+        LeSean McCoy dominating in the legendary 2007 Backyard Brawl, torching #2 West Virginia for 148 rushing yards and powering Pitt to the unforgettable 13–9 upset win.
+      </figcaption>
+    </figure>
+
+    <!-- Bio section -->
+    <section>
+      <h2>Bio</h2>
+      <p id="bio">
+        LeSean McCoy lit up Heinz Field in just two seasons at Pitt (2007–2008), rushing for nearly 2,900 yards and 35 touchdowns. He’s best remembered for powering Pitt’s stunning 13–9 upset over #2 West Virginia in the 2007 Backyard Brawl. Drafted by the Philadelphia Eagles, McCoy became their all-time leading rusher, earned six Pro Bowl selections, and won two Super Bowls before retiring as one of the most exciting backs of his era.
+      </p>
+    </section>
+
+    <!-- Stats section -->
+    <section>
+      <h2>Year-by-Year Stats</h2>
+      <!-- JS renders the stats table here -->
+      <div id="stats-table"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Chase Marsalko</p>
+  </footer>
+</body>
+</html>

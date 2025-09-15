@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Page setup -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Page title -->
+  <title>College Football — Pittsburgh Athletes</title>
+
+  <!-- Styles and scripts -->
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <!-- Page heading -->
+    <h1>College Football</h1>
+
+    <!-- Navigation menu -->
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="football.html">Professional Football</a></li>
+        <!-- aria-current marks the active page -->
+        <li><a href="cfb.html" aria-current="page">College Football</a></li>
+        <li><a href="baseball.html">Professional Baseball</a></li>
+        <li><a href="hockey.html">Hockey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <!-- Section heading -->
+      <h2>Athletes</h2>
+
+      <!-- Athlete card: Aaron Donald -->
+      <a href="aaron-donald.html" 
+         class="athlete-card" 
+         data-name="Aaron Donald" 
+         data-team="Pitt Panthers / Rams">
+        <img src="photos/aarondonald1.jpg" alt="Aaron Donald" />
+        <h3>Aaron Donald</h3>
+        <p>Pitt / Rams — DL</p>
+      </a>
+
+      <!-- Athlete card: LeSean McCoy -->
+      <a href="shady-mccoy.html" 
+         class="athlete-card" 
+         data-name="LeSean 'Shady' McCoy" 
+         data-team="Pitt Panthers / Eagles">
+        <img src="photos/shadymccoy1.jpg" alt="LeSean 'Shady' McCoy" />
+        <h3>LeSean 'Shady' McCoy</h3>
+        <p>Pitt / Eagles — RB</p>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer with dynamic year -->
+    <p>&copy; <span id="year"></span> Chase Marsalko</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- HTML5 document setup -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Page title -->
+  <title>Andrew Mccutchen — Pittsburgh Athletes</title>
+
+  <!-- CSS and JS files -->
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="data/athletes.js"></script>
+  <script defer src="script.js"></script>
+</head>
+
+<!-- Tell JS which athlete this page is for -->
+<body data-athlete="andrew_mccutchen">
+  <header>
+    <!-- Site heading -->
+    <h1 id="athlete-name">Pittsburgh Sports Greats Past and Present</h1>
+
+    <!-- Navigation menu -->
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="football.html">Professional Football</a></li>
+        <li><a href="cfb.html">College Football</a></li>
+        <li><a href="baseball.html">Professional Baseball</a></li>
+        <li><a href="hockey.html">Hockey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page heading -->
+    <h2>Andrew Mccutchen - Pittsburgh Pirates</h2> 
+
+    <!-- Image and caption -->
+    <figure>
+      <img id="athlete-img" src="photos/andrewmccutchen2.webp" alt="" width="640" height="360" />
+      <figcaption>
+        Andrew Mccutchen saluting to the Pirates fans after winning NL MVP in 2013.
+      </figcaption>
+    </figure>
+
+    <!-- Bio section -->
+    <section>
+      <h2>Bio</h2>
+      <p id="bio">
+        Andrew McCutchen became the face of the Pittsburgh Pirates during the 2010s, bringing energy and leadership to a franchise long in need of revival. 
+        From 2009–2017, he was a five-time All-Star, won the 2013 National League MVP, and helped the Pirates reach the postseason for the first time in 20 years. 
+        Beloved by fans for both his play and personality, McCutchen’s return to Pittsburgh late in his career has only cemented his place as a franchise icon.
+      </p>
+    </section>
+
+    <!-- Stats section -->
+    <section>
+      <h2>Year-by-Year Stats</h2>
+      <div id="stats-table"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> Chase Marsalko</p>
+  </footer>
+</body>
+</html>

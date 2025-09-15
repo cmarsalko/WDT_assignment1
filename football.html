@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Page setup -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Page title -->
+  <title>Professional Football — Pittsburgh Athletes</title>
+
+  <!-- Styles and scripts -->
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <!-- Page heading -->
+    <h1>Professional Football</h1>
+
+    <!-- Navigation menu -->
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <!-- aria-current marks the active page -->
+        <li><a href="football.html" aria-current="page">Professional Football</a></li>
+        <li><a href="cfb.html">College Football</a></li>
+        <li><a href="baseball.html">Professional Baseball</a></li>
+        <li><a href="hockey.html">Hockey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <!-- Section heading -->
+      <h2>Athletes</h2>
+
+      <!-- Athlete card: T.J. Watt -->
+      <a href="tj-watt.html" 
+         class="athlete-card" 
+         data-name="T.J. Watt" 
+         data-team="Pittsburgh Steelers">
+        <img src="photos/tjwatt1.jpeg" alt="T.J. Watt" />
+        <h3>T.J. Watt</h3>
+        <p>Steelers — EDGE/LB</p>
+      </a>
+
+      <!-- Athlete card: Antonio Brown -->
+      <a href="antonio-brown.html" 
+         class="athlete-card" 
+         data-name="Antonio Brown" 
+         data-team="Pittsburgh Steelers">
+        <img src="photos/antoniobrown1.jpg" alt="Antonio Brown" />
+        <h3>Antonio Brown</h3>
+        <p>Steelers — WR</p>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Chase Marsalko</p>
+  </footer>
+</body>
+</html>

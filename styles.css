@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;              
+  line-height: 1.6;
+  margin: 0;
+  color: #F0AE00;
+  background: #222;
+}
+
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 { font-size: 2rem; margin: 16px 0; text-align: center; }
+h2 { font-size: 1.5rem; margin: 16px 0 8px; }
+h3 { margin: 12px 0 6px; }
+
+header {
+  text-align: center;
+  padding: 16px;
+  border-bottom: 1px solid #dddddd;
+}
+
+footer {
+  text-align: center;
+  padding: 24px 16px;
+  border-top: 1px solid #eeeeee;
+  color: #666666;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 4px;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  background: #F0AE00;
+  color: #222;
+}
+
+.nav a:hover { text-decoration: underline; }
+.nav a:visited { opacity: 0.95; }
+.nav a:active { background: #F0AE00; }
+
+.controls {
+  text-align: center;
+  margin: 12px 0 16px;
+}
+
+.controls input[type="search"],
+.controls button {
+  padding: 8px 10px;
+  margin: 2px;
+  border: 1px solid #222;
+  border-radius: 6px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 12px;
+}
+
+.athlete-card {
+  display: inline-block;        
+  width: 220px;                 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 8px;
+  text-decoration: none;        
+  color: inherit;               
+  vertical-align: top;          
+}
+
+.athlete-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+.athlete-card:hover {
+  background: #f9f9f9;
+}
+
+.athlete-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+}
+
+td {
+  border: 1px solid #F0AE00;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  color: #222;
+  background-color: #F0AE00;
+  text-align: left;
+  padding: 8px;
+}
+
+
+thead th {
+  background: #F0AE00;
+  font-weight: bold;
+}
+
+.form-row {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label { display: inline-block; margin-bottom: 4px; font-weight: bold; }
+
+input, textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 8px;
+  border: 1px solid #F0AE00;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+figure { margin: 0; }
+figcaption { font-size: 0.9rem; color: #F0AE00; margin-top: 6px; }

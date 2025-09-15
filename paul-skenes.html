@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Page setup -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Page title -->
+  <title>Paul Skenes — Pittsburgh Athletes</title>
+
+  <!-- Styles and scripts -->
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="data/athletes.js"></script>
+  <script defer src="script.js"></script>
+</head>
+
+<!-- Data attribute tells JS which athlete to load -->
+<body data-athlete="paul_skenes">
+  <header>
+    <!-- Site heading -->
+    <h1 id="athlete-name">Pittsburgh Sports Greats Past and Present</h1>
+
+    <!-- Navigation menu -->
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="football.html">Professional Football</a></li>
+        <li><a href="cfb.html">College Football</a></li>
+        <li><a href="baseball.html">Professional Baseball</a></li>
+        <li><a href="hockey.html">Hockey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page heading -->
+    <h2>Paul Skenes - Pittsburgh Pirates</h2>
+
+    <!-- Image and caption -->
+    <figure>
+      <img 
+        id="athlete-img" 
+        src="photos/paulskenes2.jpg" 
+        alt="Paul Skenes pitching in the 2024 MLB All-Star Game" 
+        width="640" 
+        height="360" 
+      />
+      <figcaption>
+        Paul Skenes starting in the 2024 MLB All-Star Game, one of few players to start in the All-Star Game as a rookie.
+      </figcaption>
+    </figure>
+
+    <!-- Bio section -->
+    <section>
+      <h2>Bio</h2>
+      <p id="bio">
+        Paul Skenes, the top pick in the 2023 MLB Draft, wasted no time making an impact with the Pirates. 
+        Known for his triple-digit fastball and commanding presence on the mound, he quickly established himself 
+        as one of baseball’s brightest young stars. With a rare combination of power and poise, Skenes is viewed 
+        as the future ace capable of leading Pittsburgh back into contention.
+      </p>
+    </section>
+
+    <!-- Stats section -->
+    <section>
+      <h2>Year-by-Year Stats</h2>
+      <!-- Placeholder where JS will generate stats -->
+      <div id="stats-table"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Chase Marsalko</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Page setup -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Page title -->
+  <title>Hockey — Pittsburgh Athletes</title>
+
+  <!-- Styles and scripts -->
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <!-- Page heading -->
+    <h1>Professional Hockey</h1>
+
+    <!-- Navigation menu -->
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="football.html">Professional Football</a></li>
+        <li><a href="cfb.html">College Football</a></li>
+        <li><a href="baseball.html">Professional Baseball</a></li>
+        <!-- aria-current marks this as the active page -->
+        <li><a href="hockey.html" aria-current="page">Hockey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <!-- Section heading -->
+      <h2>Athletes</h2>
+
+      <!-- Athlete card: Sidney Crosby -->
+      <a href="sidney-crosby.html" 
+         class="athlete-card" 
+         data-name="Sidney Crosby" 
+         data-team="Pittsburgh Penguins">
+        <img src="photos/sidneycrosby1.jpg" alt="Sidney Crosby" />
+        <h3>Sidney Crosby</h3>
+        <p>Penguins — C</p>
+      </a>
+        
+      <!-- Athlete card: Mario Lemieux -->
+      <a href="mario-lemieux.html" 
+         class="athlete-card" 
+         data-name="Mario Lemieux" 
+         data-team="Pittsburgh Penguins">
+        <img src="photos/mariolemieux1.jpg" alt="Mario Lemieux" />
+        <h3>Mario Lemieux</h3>
+        <p>Penguins — C</p>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Chase Marsalko</p>
+  </footer>
+</body>
+</html>

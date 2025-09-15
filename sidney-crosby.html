@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Page setup -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Page title -->
+  <title>Sidney Crosby — Pittsburgh Athletes</title>
+
+  <!-- Styles and scripts -->
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="data/athletes.js"></script>
+  <script defer src="script.js"></script>
+</head>
+
+<!-- Tells JS which athlete to load -->
+<body data-athlete="sidney_crosby">
+  <header>
+    <!-- Site heading -->
+    <h1 id="athlete-name">Pittsburgh Sports Greats Past and Present</h1>
+
+    <!-- Navigation menu -->
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="football.html">Professional Football</a></li>
+        <li><a href="cfb.html">College Football</a></li>
+        <li><a href="baseball.html">Professional Baseball</a></li>
+        <li><a href="hockey.html">Hockey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page heading -->
+    <h2>Sidney Crosby - Pittsburgh Penguins</h2>
+
+    <!-- Image and caption -->
+    <figure>
+      <img 
+        id="athlete-img" 
+        src="photos/sidneycrosby2.jpg" 
+        alt="Sidney Crosby lifting the Stanley Cup Trophy in 2017" 
+        width="640" 
+        height="360" 
+      />
+      <figcaption>
+        Sidney Crosby lifting the Stanley Cup Trophy after winning it in 2017.
+      </figcaption>
+    </figure>
+
+    <!-- Bio section -->
+    <section>
+      <h2>Bio</h2>
+      <p id="bio">
+        Sidney Crosby, the first overall pick in the 2005 NHL Draft, has been the face of the Pittsburgh Penguins for nearly two decades. 
+        Nicknamed “Sid the Kid,” he quickly lived up to the hype, leading the team to three Stanley Cup championships (2009, 2016, 2017). 
+        A two-time league MVP and widely regarded as one of the greatest players in hockey history, Crosby is known for his leadership, vision, 
+        and clutch performances on the biggest stages.
+      </p>
+    </section>
+
+    <!-- Stats section -->
+    <section>
+      <h2>Year-by-Year Stats</h2>
+      <!-- Stats table will be generated here by JS -->
+      <div id="stats-table"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Chase Marsalko</p>
+  </footer>
+</body>
+</html>

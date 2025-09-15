@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Document metadata -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Page title shown in browser tab -->
+  <title>Antonio Brown — Pittsburgh Athletes</title>
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- JavaScript files (loaded after HTML parsing with defer) -->
+  <script defer src="data/athletes.js"></script>
+  <script defer src="script.js"></script>
+</head>
+
+<!-- Data attribute tells JS which athlete’s info to load -->
+<body data-athlete="antonio_brown">
+  <header>
+    <!-- Site-wide main heading -->
+    <h1 id="athlete-name">Pittsburgh Sports Greats Past and Present</h1>
+
+    <!-- Primary navigation -->
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="football.html">Professional Football</a></li>
+        <li><a href="cfb.html">College Football</a></li>
+        <li><a href="baseball.html">Professional Baseball</a></li>
+        <li><a href="hockey.html">Hockey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sub-heading for this athlete’s page -->
+    <h2>Antonio Brown — Pittsburgh Steelers</h2>
+
+    <figure>
+      <img 
+        id="athlete-img" 
+        src="photos/antoniobrown2.webp" 
+        alt="Antonio Brown walking out of the tunnel for a game in 2017" 
+        width="640" 
+        height="360" 
+      />
+      <figcaption>
+        Antonio Brown walking out of the tunnel for a game in 2017.
+      </figcaption>
+    </figure>
+
+    <!-- Bio section -->
+    <section>
+      <h2>Bio</h2>
+      <p id="bio">
+        Antonio Brown rose from a sixth-round draft pick in 2010 to one of the most unstoppable wide receivers of his era. 
+        During his prime years with the Steelers, he earned seven Pro Bowl selections, led the league in receiving yards twice, 
+        and produced some of the most memorable highlights in franchise history. 
+        Despite a turbulent career later on, his production in Pittsburgh places him among the greatest receivers in team history.
+      </p>
+    </section>
+
+    <!-- Stats section -->
+    <section>
+      <h2>Year-by-Year Stats</h2>
+      <!-- Placeholder where JS will generate a stats table -->
+      <div id="stats-table"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Chase Marsalko</p>
+  </footer>
+</body>
+</html>

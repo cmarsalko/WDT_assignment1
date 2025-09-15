@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Page setup -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Page title -->
+  <title>T.J. Watt — Pittsburgh Athletes</title>
+
+  <!-- Styles and scripts -->
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="data/athletes.js"></script>
+  <script defer src="script.js"></script>
+</head>
+
+<!-- Tells JS which athlete to load -->
+<body data-athlete="tj_watt">
+  <header>
+    <!-- Site heading -->
+    <h1 id="athlete-name">Pittsburgh Sports Greats Past and Present</h1>
+
+    <!-- Navigation menu -->
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="football.html">Professional Football</a></li>
+        <li><a href="cfb.html">College Football</a></li>
+        <li><a href="baseball.html">Professional Baseball</a></li>
+        <li><a href="hockey.html">Hockey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page heading -->
+    <h2>T.J. Watt - Pittsburgh Steelers</h2>
+
+    <!-- Image and caption -->
+    <figure>
+      <img 
+        id="athlete-img" 
+        src="photos/tjwatt2.jpg" 
+        alt="T.J. Watt doing his pregame jump at Heinz Field" 
+        width="640" 
+        height="360" 
+      />
+      <figcaption>
+        T.J. Watt doing his iconic pregame jump that he does before every Steelers home game.
+      </figcaption>
+    </figure>
+
+    <!-- Bio section -->
+    <section>
+      <h2>Bio</h2>
+      <p id="bio">
+        T.J. Watt has carved out his own legacy in Pittsburgh since being drafted in 2017. 
+        Known for his relentless motor and pass-rushing dominance, Watt tied the NFL’s single-season sack record with 22.5 sacks in 2021, earning NFL Defensive Player of the Year honors. 
+        A multiple-time Pro Bowler and team leader, he continues to anchor the Steelers’ defense and carry on the franchise’s tradition of great linebackers.
+      </p>
+    </section>
+
+    <!-- Stats section -->
+    <section>
+      <h2>Year-by-Year Stats</h2>
+      <!-- Stats table will be filled by JavaScript -->
+      <div id="stats-table"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Chase Marsalko</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Page setup -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Page title -->
+  <title>Pittsburgh Athletes — Home</title>
+
+  <!-- Styles and scripts -->
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="data/athletes.js"></script>
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <!-- Site heading -->
+    <h1>Pittsburgh Sports Greats — Past and Present</h1>
+
+    <!-- Navigation menu -->
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <!-- aria-current shows the current page -->
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="football.html">Professional Football</a></li>
+        <li><a href="cfb.html">College Football</a></li>
+        <li><a href="baseball.html">Professional Baseball</a></li>
+        <li><a href="hockey.html">Hockey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <!-- Section heading -->
+      <h2>Explore Athletes</h2>
+
+      <!-- Card grid -->
+      <div class="cards" role="list">
+
+        <!-- Athlete card: Sidney Crosby -->
+        <a href="sidney-crosby.html" 
+           class="athlete-card" 
+           role="listitem" 
+           data-name="Sidney Crosby" 
+           data-team="Pittsburgh Penguins">
+          <img src="photos/sidneycrosby1.jpg" alt="Sidney Crosby skating for the Penguins" />
+          <h3>Sidney Crosby</h3>
+          <p>Penguins — Center</p>
+        </a>
+
+        <!-- Athlete card: Mario Lemieux -->
+        <a href="mario-lemieux.html" 
+           class="athlete-card" 
+           role="listitem" 
+           data-name="Mario Lemieux" 
+           data-team="Pittsburgh Penguins">
+          <img src="photos/mariolemieux1.jpg" alt="Mario Lemieux of the Penguins" />
+          <h3>Mario Lemieux</h3>
+          <p>Penguins — Center</p>
+        </a>
+
+        <!-- Athlete card: T.J. Watt -->
+        <a href="tj-watt.html" 
+           class="athlete-card" 
+           role="listitem" 
+           data-name="T.J. Watt" 
+           data-team="Pittsburgh Steelers">
+          <img src="photos/tjwatt1.jpeg" alt="T.J. Watt of the Steelers" />
+          <h3>T.J. Watt</h3>
+          <p>Steelers — Edge Rusher</p>
+        </a>
+
+        <!-- Athlete card: Antonio Brown -->
+        <a href="antonio-brown.html" 
+           class="athlete-card" 
+           role="listitem" 
+           data-name="Antonio Brown" 
+           data-team="Pittsburgh Steelers">
+          <img src="photos/antoniobrown1.jpg" alt="Antonio Brown making a catch for the Steelers" />
+          <h3>Antonio Brown</h3>
+          <p>Steelers — Wide Receiver</p>
+        </a>
+
+        <!-- Athlete card: Andrew McCutchen -->
+        <a href="andrew-mccutchen.html" 
+           class="athlete-card" 
+           role="listitem" 
+           data-name="Andrew McCutchen" 
+           data-team="Pittsburgh Pirates">
+          <img src="photos/andrewmccutchen1.jpg" alt="Andrew McCutchen batting for the Pirates" />
+          <h3>Andrew McCutchen</h3>
+          <p>Pirates — Outfielder</p>
+        </a>
+
+        <!-- Athlete card: Paul Skenes -->
+        <a href="paul-skenes.html" 
+           class="athlete-card" 
+           role="listitem" 
+           data-name="Paul Skenes" 
+           data-team="Pittsburgh Pirates">
+          <img src="photos/paulskenes1.jpg" alt="Paul Skenes pitching for the Pirates" />
+          <h3>Paul Skenes</h3>
+          <p>Pirates — Pitcher</p>
+        </a>
+
+        <!-- Athlete card: Aaron Donald -->
+        <a href="aaron-donald.html" 
+           class="athlete-card" 
+           role="listitem" 
+           data-name="Aaron Donald" 
+           data-team="Pitt Panthers / Los Angeles Rams">
+          <img src="photos/aarondonald1.jpg" alt="Aaron Donald with the Rams" />
+          <h3>Aaron Donald</h3>
+          <p>Pitt / Rams — Defensive Lineman</p>
+        </a>
+
+        <!-- Athlete card: LeSean McCoy -->
+        <a href="shady-mccoy.html" 
+           class="athlete-card" 
+           role="listitem" 
+           data-name="LeSean “Shady” McCoy" 
+           data-team="Pitt Panthers / Philadelphia Eagles">
+          <img src="photos/shadymccoy1.jpg" alt="LeSean “Shady” McCoy with the Eagles" />
+          <h3>LeSean “Shady” McCoy</h3>
+          <p>Pitt / Eagles — Running Back</p>
+        </a>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer with dynamic year -->
+    <p>&copy; <span id="year"></span> Chase Marsalko</p>
+  </footer>
+</body>
+</html>
