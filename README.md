@@ -28,7 +28,8 @@ All pages are connected by a consistent **navigation bar** at the top.
 - **Images**: Athlete images included with descriptive `alt` text.  
 - **Links**: Internal links connect all pages.  
 
-Validated using the **[W3C Markup Validator](https://validator.w3.org/)** — no errors on `index.html`.  
+Validated using the **[W3C Markup Validator](https://validator.w3.org/)** 
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmarsalko.github.io%2FWDT_assignment1%2Findex.html
 
 ---
 
