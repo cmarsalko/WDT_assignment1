@@ -45,7 +45,8 @@ https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmarsalko.github.io%2FWDT_assignm
   - Improved link states (`:hover`, `:visited`).  
   - Added consistent padding/margins for layout balance.  
 
-Validated using the **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)** — no errors on `styles.css`.  
+Validated using the **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)**
+
 https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcmarsalko.github.io%2FWDT_assignment1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 ---
