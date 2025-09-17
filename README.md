@@ -28,4 +28,4 @@ MDN Web Docs
 Stack Overflow (table guidance)
 
 Summary
-Practiced structuring multi-page sites, applying consistent CSS, and adding dynamic JavaScript functionality — all validated for web standards.
+I created a multi-page website that highlights Pittsburgh’s sports history while practicing my HTML, CSS, and JavaScript skills.
