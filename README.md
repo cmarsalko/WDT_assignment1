@@ -14,8 +14,10 @@ Athlete pages – Dedicated bios and stat tables
 Features
 
 HTML: Semantic tags, images with alt text, dynamic tables, internal links (W3C validated)
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmarsalko.github.io%2FWDT_assignment1%2Findex.html
 
 CSS: Styled navigation bar, typography, figures, tables, and links (W3C validated)
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcmarsalko.github.io%2FWDT_assignment1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 JavaScript: Athlete data stored in window.ATHLETES, dynamic table rendering, DOMContentLoaded events, no console errors
 
